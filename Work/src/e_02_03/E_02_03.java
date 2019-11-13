@@ -1,4 +1,4 @@
-package e_02_02;
+package e_02_03;
 import java.util.Scanner;
 
 public class E_02_03 {

@@ -1,7 +1,7 @@
 package e_02_02;
 
 public class E_02_02 {
-	// 三つのint型変数に値を代入し合計を求める
+	// 三つのint型変数に値を代入し合計と平均を求める
 	public static void main(String[] args){
 		int x; // int型の変数xを宣言
 		int y; // int型の変数yを宣言

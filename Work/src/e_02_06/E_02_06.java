@@ -14,12 +14,12 @@ public class E_02_06 {
 		// 底辺の入力を促す
 		System.out.print("底辺：");
 		// 底辺の入力値を変数に代入
-		int baseValue = stdIn.nextInt();
+		double baseValue = stdIn.nextDouble();
 
 		// 高さの入力を促す
 		System.out.print("高さ：");
 		// 高さの入力値を変数に代入
-		int highValue = stdIn.nextInt();
+		double highValue = stdIn.nextDouble();
 
 		// 面積を表示
 		System.out.println("面積は" + ((baseValue * highValue) / 2) + "です。");

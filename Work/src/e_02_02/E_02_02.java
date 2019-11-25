@@ -12,7 +12,7 @@ public class E_02_02 {
 		z = 30; // int型の変数zに30を代入
 
 		System.out.println("合計は" + (x + y + z) + "です。"); // 合計を表示
-		System.out.println("合計は" + (x + y + z) / 2 + "です。"); // 平均を表示
+		System.out.println("合計は" + (x + y + z) / 3 + "です。"); // 平均を表示
 
 	}
 }

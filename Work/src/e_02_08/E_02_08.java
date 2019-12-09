@@ -6,7 +6,7 @@ public class E_02_08 {
 	public static void main(String[] args){
 		// Scannerクラスのインスタンスを生成
 		Scanner stdIn = new Scanner(System.in);
-		// ランダムクラスのインスタンスを生成
+		// randamクラスのインスタンスを生成
 		Random rand = new Random();
 
 		// 整数値の入力を促す
@@ -14,10 +14,16 @@ public class E_02_08 {
 		// 整数値の入力値を変数に代入
 		int intValue = stdIn.nextInt();
 
-		// 読み込んだ整数値の±5の範囲の整数値を生成
-		int randamInt = rand.nextInt(10) + (intValue - 5);
+		// 0から10までの乱数を生成
+		int randamInt = rand.nextInt(11);
 
-		// 生成した乱数を表示
-		System.out.println("その値の±5の乱数を生成しました。それは" + randamInt + "です。");
+		// 生成された数値から5をマイナスする
+		randamInt -= 5;
+
+		// 入力した整数値に乱数を足す
+		intValue += randamInt;
+
+		// 乱数を表示する
+		System.out.println("その値の±5の乱数を生成しました。それは" + intValue + "です。");
 	}
 }

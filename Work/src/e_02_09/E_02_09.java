@@ -18,7 +18,7 @@ public class E_02_09 {
 		System.out.println("0.0以上10.0未満の実数値は" + lessThanTen +"です。");
 
 		// -1,0～1,0未満の乱数を生成
-		double moreLessThanOne = rand.nextInt(3) -1;
+		double moreLessThanOne = rand.nextInt(2) -1;
 
 		// 生成された乱数に1.0未満の乱数をプラスした実数値を表示
 		System.out.println("-1.0以上1.0未満の実数値は" + (moreLessThanOne + lessThanOne) +"です。");

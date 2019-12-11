@@ -17,14 +17,15 @@ public class E_03_04 {
         // 整数値の入力値を変数に代入
         int intValueB = stdIn.nextInt();
 
-        if(intValueA == intValueB)
-        	// AとBがイコールだったパターンの表示
-        	System.out.println("aとbは同じ値です。");
-        else if(intValueA > intValueB)
+        if(intValueA > intValueB)
         	// Aのほうが大きいパターンの表示
         	System.out.println("aのほうが大きいです。");
+
         else if(intValueA < intValueB)
         	// Bのほうが大きいパターンの表示
         	System.out.println("bのほうが大きいです。");
+        else
+        	// AとBがイコールだったパターンの表示
+        	System.out.println("aとbは同じ値です。");
     }
 }

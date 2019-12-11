@@ -12,7 +12,6 @@ public class E_03_03 {
         // 整数値の入力値を変数に代入
         int intValue = stdIn.nextInt();
 
-        //
         if(intValue > 0)
         	// 整数値が正であるパターンの表示
         	System.out.println("その値は正です。");

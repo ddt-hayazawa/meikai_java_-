@@ -14,10 +14,13 @@ public class E_03_03 {
 
         //
         if(intValue > 0)
+        	// 整数値が正であるパターンの表示
         	System.out.println("その値は正です。");
         else if(intValue < 0)
+        	// 整数値が負であるパターンの表示
         	System.out.println("その値は負です。");
         else if(intValue == 0)
+        	// 整数値が0であるパターンの表示
         	System.out.println("その値は0です。");
 
         // 上二つの条件を通過してるパターンが「n==0」のみのため

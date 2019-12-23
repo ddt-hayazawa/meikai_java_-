@@ -12,9 +12,12 @@ public class E_03_01 {
         // 入力値を変数に代入
         int intValue = stdIn.nextInt();
 
+        // 絶対値算出用の-1を変数に代入
+        int absoluteValue = -1;
+
         if(intValue < 0)
             // 入力値が0未満(マイナス)であればマイナスをかけて絶対値を算出
-            intValue = intValue * -1;
+            intValue = intValue * absoluteValue;
         // 算出した絶対値を表示
         System.out.println("その絶対値は" + intValue + "です。" );
     }

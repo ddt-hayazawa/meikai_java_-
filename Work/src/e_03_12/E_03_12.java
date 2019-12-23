@@ -23,15 +23,15 @@ public class E_03_12 {
 		int intValueC = stdIn.nextInt();
 
 		// 最小値を求めるためにまずminに実数値aを代入
-		int min = intValueA;
+		int minValue = intValueA;
 
 		if(intValueB < min){
 			// 実数値bがminより小さい場合、minにbを代入
-			min = intValueB;
+			minValue = intValueB;
 		}else if(intValueC < min){
 			// 実数値cがminより小さい場合、minにcを代入
-			min = intValueC;
+			minValue = intValueC;
 		}
-		System.out.println("3つの実数値の最小値は" + min + "です。");
+		System.out.println("3つの実数値の最小値は" + minValue + "です。");
 	}
 }

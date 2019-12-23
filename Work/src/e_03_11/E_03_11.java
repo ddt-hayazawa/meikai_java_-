@@ -18,10 +18,10 @@ public class E_03_11 {
 		int intValueB = stdIn.nextInt();
 
 		// 表示用の変数を宣言
-		int diff = (intValueA > intValueB ? intValueA - intValueB : intValueB - intValueA);
+		int diffValue = (intValueA > intValueB ? intValueA - intValueB : intValueB - intValueA);
 
 		// 三項演算子で一気に計算
-		System.out.println("2つの数値の差は10" + (diff <= 10 ? "以下" : "以上") + "です。");
+		System.out.println("2つの数値の差は10" + (diffValue <= 10 ? "以下" : "以上") + "です。");
 
 	}
 }

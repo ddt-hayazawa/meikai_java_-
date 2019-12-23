@@ -25,10 +25,10 @@ public class E_03_12 {
 		// 最小値を求めるためにまずminに実数値aを代入
 		int minValue = intValueA;
 
-		if(intValueB < min){
+		if(intValueB < minValue){
 			// 実数値bがminより小さい場合、minにbを代入
 			minValue = intValueB;
-		}else if(intValueC < min){
+		}else if(intValueC < minValue){
 			// 実数値cがminより小さい場合、minにcを代入
 			minValue = intValueC;
 		}

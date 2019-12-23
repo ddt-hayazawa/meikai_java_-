@@ -18,10 +18,7 @@ public class E_03_09 {
 		// 実数値bの入力値を変数に代入
 		int intValueB = stdIn.nextInt();
 
-		// 表示用の数値を入れる変数を宣言
-		int maxValue;
-
-		// 参考演算子で一気に計算
+		// 参考演算子で一気に計算し表示
 		System.out.println("大きいほうの値は" + (intValueA >intValueB ? intValueA : intValueB) + "です。");
 	}
 }

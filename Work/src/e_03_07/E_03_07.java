@@ -24,7 +24,7 @@ public class E_03_07 {
 			else if(intValue % 3 == 2)
 				// 整数値を3で割った余りが2のパターンの表示
 				System.out.println("その値を3で割った余りは2です。");
-			else if(intValue % 3 == 1)
+			else
 				// 整数値を3で割った余りが1のパターンの表示
 				System.out.println("その値を3で割った余りは1です。");
 	}

@@ -16,20 +16,21 @@ public class E_04_01 {
 	        // 整数値の入力値を変数に代入
 	        int intValue = stdIn.nextInt();
 
-	        if(intValue <= 0)
-	        	// 読み込まれた値が正かどうかを先に判断
-	        	System.out.println("正でない値が入力されました。");
-	        else if(intValue % 5 == 0){
-	        	// 整数値が5で割り切れるパターンの表示
-	        	System.out.println("その値は5で割り切れます。");
+	        if(0 < intValue){
+	        	// 入力値が0より大きい場合は正と表示
+	        	System.out.println("その値は正です。");
+	        }else if(intValue < 0){
+	        	// 入力値が0より小さい場合は負と表示
+	        	System.out.println("その値は負です。");
 	        }else{
-	        	// 整数値が5で割り切れないパターンの表示
-	        	System.out.println("その値は5で割り切れません。");
+	        	// 残りのパターンは0のみなので0ですと表示
+	        	System.out.println("その値は0です。");
 	        }
 	        // もう一度行うか確認
 	        System.out.print("もう一度？ 1…Yes/2…No:");
+
 	        // 繰り返し変数に入力値を代入
-			retry = stdIn.nextInt();
+	        retry = stdIn.nextInt();
 
 		// 	入力値が1の場合処理を繰り返す
 		}while(retry == 1);

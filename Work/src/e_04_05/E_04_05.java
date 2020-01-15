@@ -23,5 +23,7 @@ public class E_04_05 {
 			// 表示前にdecreaseNumをデクリメントする
 			System.out.println(--decreaseNum);
 		}
+		// 4から-1までカウントダウンをすることを確認
 	}
 }
+

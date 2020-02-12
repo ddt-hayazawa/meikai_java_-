@@ -2,7 +2,7 @@ package e_04_13;
 import java.util.Scanner;
 
 public class E_04_13 {
-	// 整数値を0から入力値までカウント
+	// 1から入力値までの和を求める
 	public static void main(String[] args){
 		// Scannerインスタンスを生成
 		Scanner stdIn = new Scanner(System.in);

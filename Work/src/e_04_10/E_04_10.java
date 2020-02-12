@@ -15,10 +15,10 @@ public class E_04_10 {
 		for (int i = 0; i < inputNum; i++) {
 			// ＊を表示
 			System.out.print("*");
-		}
-		if (i == inputNum) {
-			// iが入力値と同じになったとき、改行を出力
-			System.out.println();
+			if (i == inputNum) {
+				// iが入力値と同じになったとき、改行を出力
+				System.out.println();
+			}
 		}
 	}
 }

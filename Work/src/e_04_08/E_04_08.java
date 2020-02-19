@@ -23,6 +23,6 @@ public class E_04_08 {
 			countNum++;
 		}
 		// 表示用変数を表示
-		System.out.print(countNum);
+		System.out.print("その値は" + countNum + "桁です。");
 	}
 }

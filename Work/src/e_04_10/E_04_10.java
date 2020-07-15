@@ -12,7 +12,7 @@ public class E_04_10 {
 		int inputNum = stdIn.nextInt();
 
 		// iを1から開始して入力値以下になるまで繰り返す
-		for (int i = 0; i < inputNum; i++) {
+		for (int i = 1; i <= inputNum; i++) {
 			// ＊を表示
 			System.out.print("*");
 			if (i == inputNum) {

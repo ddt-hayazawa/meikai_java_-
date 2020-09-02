@@ -13,7 +13,7 @@ public class E_04_07 {
 		int inputNum = stdIn.nextInt();
 
 		// カウント用変数の宣言と初期化
-		int i = 0;
+		int i = 1;
 		while(i < inputNum){
 			// カウント用変数の値が奇数の場合1個目は+を出力する
 			// 入力値まで＊と+を出力

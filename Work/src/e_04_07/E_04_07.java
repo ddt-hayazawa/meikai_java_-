@@ -8,7 +8,7 @@ public class E_04_07 {
 		Scanner stdIn = new Scanner(System.in);
 
 		// 数値の入力を促す
-		System.out.print("何個＊を表示しますか：");
+		System.out.print("何個＊と＋を表示しますか：");
 		// 入力値を保存する変数の宣言と代入
 		int inputNum = stdIn.nextInt();
 
